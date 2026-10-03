@@ -6,6 +6,7 @@
 - Added a new futuristic Galaxy hero banner to the repository.
 - Wired `images/icon.png` into `package.json` for Marketplace / VSIX branding.
 - Updated the README to showcase the new hero artwork.
+- Added a polished Marketplace preview screenshot based on the actual VS Code Product Icons setup.
 
 ## 2.1.1
 
