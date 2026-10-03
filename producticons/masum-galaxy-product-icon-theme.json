@@ -22,6 +22,10 @@
       "fontCharacter": "\\E001",
       "fontId": "masum-galaxy-icons"
     },
+    "open-editors-view-icon": {
+      "fontCharacter": "\\E001",
+      "fontId": "masum-galaxy-icons"
+    },
     "search-view-icon": {
       "fontCharacter": "\\E002",
       "fontId": "masum-galaxy-icons"
@@ -30,11 +34,47 @@
       "fontCharacter": "\\E002",
       "fontId": "masum-galaxy-icons"
     },
+    "search-editor-label-icon": {
+      "fontCharacter": "\\E002",
+      "fontId": "masum-galaxy-icons"
+    },
+    "find-selection": {
+      "fontCharacter": "\\E002",
+      "fontId": "masum-galaxy-icons"
+    },
+    "list-filter": {
+      "fontCharacter": "\\E002",
+      "fontId": "masum-galaxy-icons"
+    },
+    "list-filter-filled": {
+      "fontCharacter": "\\E002",
+      "fontId": "masum-galaxy-icons"
+    },
     "source-control-view-icon": {
       "fontCharacter": "\\E003",
       "fontId": "masum-galaxy-icons"
     },
     "source-control": {
+      "fontCharacter": "\\E003",
+      "fontId": "masum-galaxy-icons"
+    },
+    "git-commit": {
+      "fontCharacter": "\\E003",
+      "fontId": "masum-galaxy-icons"
+    },
+    "git-compare": {
+      "fontCharacter": "\\E003",
+      "fontId": "masum-galaxy-icons"
+    },
+    "git-merge": {
+      "fontCharacter": "\\E003",
+      "fontId": "masum-galaxy-icons"
+    },
+    "git-pull-request": {
+      "fontCharacter": "\\E011",
+      "fontId": "masum-galaxy-icons"
+    },
+    "git-stash": {
       "fontCharacter": "\\E003",
       "fontId": "masum-galaxy-icons"
     },
@@ -50,11 +90,51 @@
       "fontCharacter": "\\E004",
       "fontId": "masum-galaxy-icons"
     },
+    "debug-alt": {
+      "fontCharacter": "\\E004",
+      "fontId": "masum-galaxy-icons"
+    },
+    "debug-continue": {
+      "fontCharacter": "\\E004",
+      "fontId": "masum-galaxy-icons"
+    },
+    "debug-step-over": {
+      "fontCharacter": "\\E004",
+      "fontId": "masum-galaxy-icons"
+    },
+    "debug-step-into": {
+      "fontCharacter": "\\E004",
+      "fontId": "masum-galaxy-icons"
+    },
+    "debug-step-out": {
+      "fontCharacter": "\\E004",
+      "fontId": "masum-galaxy-icons"
+    },
+    "play": {
+      "fontCharacter": "\\E004",
+      "fontId": "masum-galaxy-icons"
+    },
+    "play-circle": {
+      "fontCharacter": "\\E004",
+      "fontId": "masum-galaxy-icons"
+    },
     "extensions-view-icon": {
       "fontCharacter": "\\E005",
       "fontId": "masum-galaxy-icons"
     },
     "extensions": {
+      "fontCharacter": "\\E005",
+      "fontId": "masum-galaxy-icons"
+    },
+    "extensions-editor-label-icon": {
+      "fontCharacter": "\\E005",
+      "fontId": "masum-galaxy-icons"
+    },
+    "extensions-manage": {
+      "fontCharacter": "\\E005",
+      "fontId": "masum-galaxy-icons"
+    },
+    "extensions-filter": {
       "fontCharacter": "\\E005",
       "fontId": "masum-galaxy-icons"
     },
@@ -66,11 +146,43 @@
       "fontCharacter": "\\E006",
       "fontId": "masum-galaxy-icons"
     },
+    "testing-run-all-icon": {
+      "fontCharacter": "\\E006",
+      "fontId": "masum-galaxy-icons"
+    },
+    "testing-rerun-icon": {
+      "fontCharacter": "\\E006",
+      "fontId": "masum-galaxy-icons"
+    },
+    "testing-run-icon": {
+      "fontCharacter": "\\E006",
+      "fontId": "masum-galaxy-icons"
+    },
+    "testing-debug-icon": {
+      "fontCharacter": "\\E006",
+      "fontId": "masum-galaxy-icons"
+    },
+    "testing-coverage-icon": {
+      "fontCharacter": "\\E006",
+      "fontId": "masum-galaxy-icons"
+    },
     "accounts-view-bar-icon": {
       "fontCharacter": "\\E007",
       "fontId": "masum-galaxy-icons"
     },
     "account": {
+      "fontCharacter": "\\E007",
+      "fontId": "masum-galaxy-icons"
+    },
+    "person": {
+      "fontCharacter": "\\E007",
+      "fontId": "masum-galaxy-icons"
+    },
+    "organization": {
+      "fontCharacter": "\\E007",
+      "fontId": "masum-galaxy-icons"
+    },
+    "sign-in": {
       "fontCharacter": "\\E007",
       "fontId": "masum-galaxy-icons"
     },
@@ -90,6 +202,18 @@
       "fontCharacter": "\\E008",
       "fontId": "masum-galaxy-icons"
     },
+    "manage": {
+      "fontCharacter": "\\E008",
+      "fontId": "masum-galaxy-icons"
+    },
+    "configure": {
+      "fontCharacter": "\\E008",
+      "fontId": "masum-galaxy-icons"
+    },
+    "debug-configure": {
+      "fontCharacter": "\\E008",
+      "fontId": "masum-galaxy-icons"
+    },
     "new-file": {
       "fontCharacter": "\\E009",
       "fontId": "masum-galaxy-icons"
@@ -98,11 +222,27 @@
       "fontCharacter": "\\E009",
       "fontId": "masum-galaxy-icons"
     },
+    "search-new-editor": {
+      "fontCharacter": "\\E009",
+      "fontId": "masum-galaxy-icons"
+    },
+    "new-untitled-file": {
+      "fontCharacter": "\\E009",
+      "fontId": "masum-galaxy-icons"
+    },
+    "explorer-new-file": {
+      "fontCharacter": "\\E009",
+      "fontId": "masum-galaxy-icons"
+    },
     "file-directory-create": {
       "fontCharacter": "\\E00A",
       "fontId": "masum-galaxy-icons"
     },
     "new-folder": {
+      "fontCharacter": "\\E00A",
+      "fontId": "masum-galaxy-icons"
+    },
+    "explorer-new-folder": {
       "fontCharacter": "\\E00A",
       "fontId": "masum-galaxy-icons"
     },
@@ -122,6 +262,14 @@
       "fontCharacter": "\\E00B",
       "fontId": "masum-galaxy-icons"
     },
+    "testing-refresh-tests": {
+      "fontCharacter": "\\E00B",
+      "fontId": "masum-galaxy-icons"
+    },
+    "debug-restart": {
+      "fontCharacter": "\\E00B",
+      "fontId": "masum-galaxy-icons"
+    },
     "collapse-all": {
       "fontCharacter": "\\E00C",
       "fontId": "masum-galaxy-icons"
@@ -131,6 +279,14 @@
       "fontId": "masum-galaxy-icons"
     },
     "search-collapse-results": {
+      "fontCharacter": "\\E00C",
+      "fontId": "masum-galaxy-icons"
+    },
+    "explorer-collapse-folders": {
+      "fontCharacter": "\\E00C",
+      "fontId": "masum-galaxy-icons"
+    },
+    "testing-collapse-all-icon": {
       "fontCharacter": "\\E00C",
       "fontId": "masum-galaxy-icons"
     },
@@ -146,11 +302,55 @@
       "fontCharacter": "\\E00D",
       "fontId": "masum-galaxy-icons"
     },
+    "search-remove": {
+      "fontCharacter": "\\E00D",
+      "fontId": "masum-galaxy-icons"
+    },
+    "settings-remove": {
+      "fontCharacter": "\\E00D",
+      "fontId": "masum-galaxy-icons"
+    },
+    "testing-cancel-icon": {
+      "fontCharacter": "\\E00D",
+      "fontId": "masum-galaxy-icons"
+    },
+    "remove-close": {
+      "fontCharacter": "\\E00D",
+      "fontId": "masum-galaxy-icons"
+    },
+    "clear-all": {
+      "fontCharacter": "\\E00D",
+      "fontId": "masum-galaxy-icons"
+    },
     "split-horizontal": {
       "fontCharacter": "\\E00E",
       "fontId": "masum-galaxy-icons"
     },
     "split-vertical": {
+      "fontCharacter": "\\E00E",
+      "fontId": "masum-galaxy-icons"
+    },
+    "editor-layout": {
+      "fontCharacter": "\\E00E",
+      "fontId": "masum-galaxy-icons"
+    },
+    "split-editor": {
+      "fontCharacter": "\\E00E",
+      "fontId": "masum-galaxy-icons"
+    },
+    "terminal-split": {
+      "fontCharacter": "\\E00E",
+      "fontId": "masum-galaxy-icons"
+    },
+    "layout-panel": {
+      "fontCharacter": "\\E00E",
+      "fontId": "masum-galaxy-icons"
+    },
+    "layout-sidebar-left": {
+      "fontCharacter": "\\E00E",
+      "fontId": "masum-galaxy-icons"
+    },
+    "layout-sidebar-right": {
       "fontCharacter": "\\E00E",
       "fontId": "masum-galaxy-icons"
     },
@@ -162,8 +362,36 @@
       "fontCharacter": "\\E00F",
       "fontId": "masum-galaxy-icons"
     },
-    "terminal-new": {
-      "fontCharacter": "\\E018",
+    "terminal-bash": {
+      "fontCharacter": "\\E00F",
+      "fontId": "masum-galaxy-icons"
+    },
+    "terminal-cmd": {
+      "fontCharacter": "\\E00F",
+      "fontId": "masum-galaxy-icons"
+    },
+    "terminal-powershell": {
+      "fontCharacter": "\\E00F",
+      "fontId": "masum-galaxy-icons"
+    },
+    "terminal-tmux": {
+      "fontCharacter": "\\E00F",
+      "fontId": "masum-galaxy-icons"
+    },
+    "terminal-ubuntu": {
+      "fontCharacter": "\\E00F",
+      "fontId": "masum-galaxy-icons"
+    },
+    "debug-console-view-icon": {
+      "fontCharacter": "\\E00F",
+      "fontId": "masum-galaxy-icons"
+    },
+    "output-view-icon": {
+      "fontCharacter": "\\E00F",
+      "fontId": "masum-galaxy-icons"
+    },
+    "repl": {
+      "fontCharacter": "\\E00F",
       "fontId": "masum-galaxy-icons"
     },
     "bell": {
@@ -171,6 +399,18 @@
       "fontId": "masum-galaxy-icons"
     },
     "bell-dot": {
+      "fontCharacter": "\\E010",
+      "fontId": "masum-galaxy-icons"
+    },
+    "notifications-view-icon": {
+      "fontCharacter": "\\E010",
+      "fontId": "masum-galaxy-icons"
+    },
+    "notifications-clear-all": {
+      "fontCharacter": "\\E010",
+      "fontId": "masum-galaxy-icons"
+    },
+    "notifications-configure": {
       "fontCharacter": "\\E010",
       "fontId": "masum-galaxy-icons"
     },
@@ -186,7 +426,19 @@
       "fontCharacter": "\\E012",
       "fontId": "masum-galaxy-icons"
     },
+    "sync-ignored": {
+      "fontCharacter": "\\E012",
+      "fontId": "masum-galaxy-icons"
+    },
     "settings-sync-view-icon": {
+      "fontCharacter": "\\E012",
+      "fontId": "masum-galaxy-icons"
+    },
+    "extensions-sync-enabled": {
+      "fontCharacter": "\\E012",
+      "fontId": "masum-galaxy-icons"
+    },
+    "git-fetch": {
       "fontCharacter": "\\E012",
       "fontId": "masum-galaxy-icons"
     },
@@ -198,6 +450,22 @@
       "fontCharacter": "\\E013",
       "fontId": "masum-galaxy-icons"
     },
+    "testing-error-icon": {
+      "fontCharacter": "\\E013",
+      "fontId": "masum-galaxy-icons"
+    },
+    "error": {
+      "fontCharacter": "\\E013",
+      "fontId": "masum-galaxy-icons"
+    },
+    "issues": {
+      "fontCharacter": "\\E013",
+      "fontId": "masum-galaxy-icons"
+    },
+    "workspace-trust": {
+      "fontCharacter": "\\E013",
+      "fontId": "masum-galaxy-icons"
+    },
     "ellipsis": {
       "fontCharacter": "\\E014",
       "fontId": "masum-galaxy-icons"
@@ -206,7 +474,27 @@
       "fontCharacter": "\\E014",
       "fontId": "masum-galaxy-icons"
     },
+    "more": {
+      "fontCharacter": "\\E014",
+      "fontId": "masum-galaxy-icons"
+    },
+    "kebab-horizontal": {
+      "fontCharacter": "\\E014",
+      "fontId": "masum-galaxy-icons"
+    },
+    "kebab-vertical": {
+      "fontCharacter": "\\E014",
+      "fontId": "masum-galaxy-icons"
+    },
+    "toolbar-more": {
+      "fontCharacter": "\\E014",
+      "fontId": "masum-galaxy-icons"
+    },
     "chrome-minimize": {
+      "fontCharacter": "\\E015",
+      "fontId": "masum-galaxy-icons"
+    },
+    "window-minimize": {
       "fontCharacter": "\\E015",
       "fontId": "masum-galaxy-icons"
     },
@@ -214,11 +502,31 @@
       "fontCharacter": "\\E016",
       "fontId": "masum-galaxy-icons"
     },
+    "panel-maximize": {
+      "fontCharacter": "\\E016",
+      "fontId": "masum-galaxy-icons"
+    },
+    "window-maximize": {
+      "fontCharacter": "\\E016",
+      "fontId": "masum-galaxy-icons"
+    },
     "chrome-restore": {
       "fontCharacter": "\\E017",
       "fontId": "masum-galaxy-icons"
     },
+    "panel-restore": {
+      "fontCharacter": "\\E017",
+      "fontId": "masum-galaxy-icons"
+    },
+    "window-restore": {
+      "fontCharacter": "\\E017",
+      "fontId": "masum-galaxy-icons"
+    },
     "add": {
+      "fontCharacter": "\\E018",
+      "fontId": "masum-galaxy-icons"
+    },
+    "terminal-new": {
       "fontCharacter": "\\E018",
       "fontId": "masum-galaxy-icons"
     },
@@ -228,6 +536,234 @@
     },
     "ports-forward-icon": {
       "fontCharacter": "\\E018",
+      "fontId": "masum-galaxy-icons"
+    },
+    "plus": {
+      "fontCharacter": "\\E018",
+      "fontId": "masum-galaxy-icons"
+    },
+    "new-line": {
+      "fontCharacter": "\\E018",
+      "fontId": "masum-galaxy-icons"
+    },
+    "comments-add": {
+      "fontCharacter": "\\E018",
+      "fontId": "masum-galaxy-icons"
+    },
+    "source-control-add": {
+      "fontCharacter": "\\E018",
+      "fontId": "masum-galaxy-icons"
+    },
+    "chevron-down": {
+      "fontCharacter": "\\E019",
+      "fontId": "masum-galaxy-icons"
+    },
+    "find-expanded": {
+      "fontCharacter": "\\E019",
+      "fontId": "masum-galaxy-icons"
+    },
+    "view-pane-container-expanded": {
+      "fontCharacter": "\\E019",
+      "fontId": "masum-galaxy-icons"
+    },
+    "tree-item-expanded": {
+      "fontCharacter": "\\E019",
+      "fontId": "masum-galaxy-icons"
+    },
+    "menu-selection": {
+      "fontCharacter": "\\E019",
+      "fontId": "masum-galaxy-icons"
+    },
+    "chevron-right": {
+      "fontCharacter": "\\E01A",
+      "fontId": "masum-galaxy-icons"
+    },
+    "find-collapsed": {
+      "fontCharacter": "\\E01A",
+      "fontId": "masum-galaxy-icons"
+    },
+    "view-pane-container-collapsed": {
+      "fontCharacter": "\\E01A",
+      "fontId": "masum-galaxy-icons"
+    },
+    "tree-item-collapsed": {
+      "fontCharacter": "\\E01A",
+      "fontId": "masum-galaxy-icons"
+    },
+    "menu-submenu": {
+      "fontCharacter": "\\E01A",
+      "fontId": "masum-galaxy-icons"
+    },
+    "arrow-right": {
+      "fontCharacter": "\\E01A",
+      "fontId": "masum-galaxy-icons"
+    },
+    "chevron-left": {
+      "fontCharacter": "\\E01B",
+      "fontId": "masum-galaxy-icons"
+    },
+    "arrow-left": {
+      "fontCharacter": "\\E01B",
+      "fontId": "masum-galaxy-icons"
+    },
+    "navigate-back": {
+      "fontCharacter": "\\E01B",
+      "fontId": "masum-galaxy-icons"
+    },
+    "back": {
+      "fontCharacter": "\\E01B",
+      "fontId": "masum-galaxy-icons"
+    },
+    "chevron-up": {
+      "fontCharacter": "\\E01C",
+      "fontId": "masum-galaxy-icons"
+    },
+    "arrow-up": {
+      "fontCharacter": "\\E01C",
+      "fontId": "masum-galaxy-icons"
+    },
+    "navigate-up": {
+      "fontCharacter": "\\E01C",
+      "fontId": "masum-galaxy-icons"
+    },
+    "trash": {
+      "fontCharacter": "\\E01D",
+      "fontId": "masum-galaxy-icons"
+    },
+    "terminal-kill": {
+      "fontCharacter": "\\E01D",
+      "fontId": "masum-galaxy-icons"
+    },
+    "terminal-trash": {
+      "fontCharacter": "\\E01D",
+      "fontId": "masum-galaxy-icons"
+    },
+    "debug-remove-config": {
+      "fontCharacter": "\\E01D",
+      "fontId": "masum-galaxy-icons"
+    },
+    "eye": {
+      "fontCharacter": "\\E01E",
+      "fontId": "masum-galaxy-icons"
+    },
+    "preview": {
+      "fontCharacter": "\\E01E",
+      "fontId": "masum-galaxy-icons"
+    },
+    "visibility": {
+      "fontCharacter": "\\E01E",
+      "fontId": "masum-galaxy-icons"
+    },
+    "extensions-view-details": {
+      "fontCharacter": "\\E01E",
+      "fontId": "masum-galaxy-icons"
+    },
+    "testing-show-output": {
+      "fontCharacter": "\\E01E",
+      "fontId": "masum-galaxy-icons"
+    },
+    "edit": {
+      "fontCharacter": "\\E01F",
+      "fontId": "masum-galaxy-icons"
+    },
+    "pencil": {
+      "fontCharacter": "\\E01F",
+      "fontId": "masum-galaxy-icons"
+    },
+    "rename": {
+      "fontCharacter": "\\E01F",
+      "fontId": "masum-galaxy-icons"
+    },
+    "settings-edit": {
+      "fontCharacter": "\\E01F",
+      "fontId": "masum-galaxy-icons"
+    },
+    "debug-edit-config": {
+      "fontCharacter": "\\E01F",
+      "fontId": "masum-galaxy-icons"
+    },
+    "check": {
+      "fontCharacter": "\\E020",
+      "fontId": "masum-galaxy-icons"
+    },
+    "pass": {
+      "fontCharacter": "\\E020",
+      "fontId": "masum-galaxy-icons"
+    },
+    "verified": {
+      "fontCharacter": "\\E020",
+      "fontId": "masum-galaxy-icons"
+    },
+    "testing-passed-icon": {
+      "fontCharacter": "\\E020",
+      "fontId": "masum-galaxy-icons"
+    },
+    "pin": {
+      "fontCharacter": "\\E021",
+      "fontId": "masum-galaxy-icons"
+    },
+    "pinned": {
+      "fontCharacter": "\\E021",
+      "fontId": "masum-galaxy-icons"
+    },
+    "unpin": {
+      "fontCharacter": "\\E021",
+      "fontId": "masum-galaxy-icons"
+    },
+    "terminal-pin": {
+      "fontCharacter": "\\E021",
+      "fontId": "masum-galaxy-icons"
+    },
+    "cloud": {
+      "fontCharacter": "\\E022",
+      "fontId": "masum-galaxy-icons"
+    },
+    "remote": {
+      "fontCharacter": "\\E022",
+      "fontId": "masum-galaxy-icons"
+    },
+    "remote-explorer": {
+      "fontCharacter": "\\E022",
+      "fontId": "masum-galaxy-icons"
+    },
+    "ports-view-icon": {
+      "fontCharacter": "\\E022",
+      "fontId": "masum-galaxy-icons"
+    },
+    "cloud-download": {
+      "fontCharacter": "\\E023",
+      "fontId": "masum-galaxy-icons"
+    },
+    "download": {
+      "fontCharacter": "\\E023",
+      "fontId": "masum-galaxy-icons"
+    },
+    "extensions-install-local-in-remote": {
+      "fontCharacter": "\\E023",
+      "fontId": "masum-galaxy-icons"
+    },
+    "extensions-install-workspace-recommended": {
+      "fontCharacter": "\\E023",
+      "fontId": "masum-galaxy-icons"
+    },
+    "git-pull": {
+      "fontCharacter": "\\E023",
+      "fontId": "masum-galaxy-icons"
+    },
+    "cloud-upload": {
+      "fontCharacter": "\\E024",
+      "fontId": "masum-galaxy-icons"
+    },
+    "upload": {
+      "fontCharacter": "\\E024",
+      "fontId": "masum-galaxy-icons"
+    },
+    "git-push": {
+      "fontCharacter": "\\E024",
+      "fontId": "masum-galaxy-icons"
+    },
+    "publish-changes": {
+      "fontCharacter": "\\E024",
       "fontId": "masum-galaxy-icons"
     }
   }
