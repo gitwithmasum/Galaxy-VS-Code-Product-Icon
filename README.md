@@ -2,7 +2,7 @@
 
 A futuristic **VS Code Product Icon Theme** by **Masum Billah**.
 
-**Version 2.1.0 · Premium Galaxy + optional Aurora Hover · Free · MIT**
+**Version 2.1.1 · Premium Galaxy + optional Aurora Hover · Free · MIT**
 
 v2.1 keeps the Premium Galaxy v2 icon system and adds an **optional Aurora hover effect directly inside this Product Icon extension**.
 
@@ -34,7 +34,7 @@ git pull
 npm.cmd install
 npx.cmd vsce package
 
-code --install-extension .\masum-galaxy-product-icons-2.1.0.vsix --force
+code --install-extension .\masum-galaxy-product-icons-2.1.1.vsix --force
 ```
 
 Activate the icon theme:
