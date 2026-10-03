@@ -1,0 +1,58 @@
+{
+  "name": "masum-galaxy-product-icons",
+  "displayName": "Masum Galaxy // Product Icons",
+  "description": "A futuristic galaxy-inspired VS Code Product Icon Theme with clean custom UI glyphs.",
+  "version": "1.0.0",
+  "publisher": "gitwithmasum",
+  "author": {
+    "name": "Masum Billah",
+    "url": "https://github.com/gitwithmasum"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "product icons",
+    "product icon theme",
+    "vscode icons",
+    "galaxy",
+    "futuristic",
+    "neon",
+    "ui icons",
+    "theme",
+    "masum galaxy"
+  ],
+  "galleryBanner": {
+    "color": "#050914",
+    "theme": "dark"
+  },
+  "pricing": "Free",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitwithmasum/Galaxy-VS-Code-Product-Icon.git"
+  },
+  "homepage": "https://github.com/gitwithmasum/Galaxy-VS-Code-Product-Icon#readme",
+  "bugs": {
+    "url": "https://github.com/gitwithmasum/Galaxy-VS-Code-Product-Icon/issues"
+  },
+  "contributes": {
+    "productIconThemes": [
+      {
+        "id": "masum-galaxy-product-icons",
+        "label": "Masum Galaxy // Product Icons",
+        "path": "./producticons/masum-galaxy-product-icon-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^4.0.0"
+  }
+}
