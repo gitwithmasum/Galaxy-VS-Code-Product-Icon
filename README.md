@@ -33,6 +33,15 @@ The custom font contains **41 distinct glyphs** from `U+E001` through `U+E029`, 
 
 - Marketplace icon: `images/icon.png`
 - Hero banner: `images/marketplace-hero.png`
+- Marketplace preview: `images/preview.jpg`
+
+## Preview
+
+<p align="center">
+  <img src="images/preview.jpg" alt="Masum Galaxy Product Icons — VS Code interface preview" width="100%">
+</p>
+
+The preview uses the actual VS Code setup with **Masum Galaxy // Product Icons** active, framed for a cleaner GitHub / Marketplace presentation.
 
 ## Install locally
 
@@ -101,6 +110,7 @@ The optional hover effect uses **Custom CSS and JS Loader**, which modifies VS C
 ```text
 images/icon.png
 images/marketplace-hero.png
+images/preview.jpg
 producticons/masum-galaxy-product-icon-theme.json
 producticons/masum-galaxy-product-icons.woff
 ui/product-icon-hover.css
