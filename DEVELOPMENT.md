@@ -13,10 +13,27 @@ Preferences: Product Icon Theme
 → Masum Galaxy // Product Icons
 ```
 
-The theme definition file ends with `product-icon-theme.json`, so VS Code provides schema validation and icon ID completion.
-
-## v1.2 glyph map
+## v1.3 glyph map
 
 The custom font uses the Private Use Area from `U+E001` through `U+E024`.
 
-Version 1.2 contains 36 distinct Galaxy glyphs and maps them across more than 200 VS Code product icon IDs. The focus is recognizable silhouettes at small sizes: files, search, source control, run, extensions, testing, account, settings, terminal, Git, navigation and common actions now use more semantically distinct shapes.
+Version 1.3 contains **36 distinct custom glyphs**. The design system prioritizes:
+
+- recognizable silhouettes at small VS Code UI sizes
+- consistent stroke weight and proportions
+- chamfered futuristic geometry
+- subtle orbital/spark accents
+- semantic distinction between common actions
+- default VS Code fallbacks where a custom icon would reduce clarity
+
+The theme definition file is:
+
+```text
+producticons/masum-galaxy-product-icon-theme.json
+```
+
+The WOFF font is:
+
+```text
+producticons/masum-galaxy-product-icons.woff
+```
