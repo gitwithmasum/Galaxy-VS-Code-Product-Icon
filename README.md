@@ -2,54 +2,41 @@
 
 A futuristic, galaxy-inspired **VS Code Product Icon Theme** by **Masum Billah**.
 
-**Version 1.2.1 · Free · MIT**
+**Version 1.3.0 · Free · MIT**
 
-This extension customizes VS Code interface icons such as Explorer, Search, Source Control, Run and Debug, Extensions, Testing, Accounts, Settings, terminal actions, window controls, refresh/sync actions, warnings and common navigation controls. Version **1.2.1** fixes the square/missing-glyph rendering issue, restores the stable Galaxy icon font, uses the correct VS Code product-icon glyph escape format, and keeps a curated set of high-value UI overrides so unfamiliar controls fall back to VS Code defaults.
+Version **1.3.0** is a visual redesign focused on making the icons feel more deliberate and premium, not just different. The main UI icons now use bolder silhouettes, chamfered geometry, compact orbital/spark details and clearer semantic shapes at small VS Code sizes.
 
-> Product Icon Themes are single-color glyph themes. VS Code gets each icon's color from the active color theme, so this pack is designed to pair especially well with dark cyan/violet Galaxy color themes.
+> VS Code Product Icon Themes are monochrome glyph themes. The icon shape comes from this extension, while the actual icon color comes from the active VS Code color theme.
 
-## Included in v1.2.1
+## What changed in v1.3
 
-- Explorer / Files
-- Search
-- Source Control
-- Run and Debug
-- Extensions
-- Testing
-- Accounts
-- Settings
-- New File / New Folder
-- Refresh / Sync
-- Collapse All
-- Close
-- Split Editor
-- Terminal
-- Notifications
-- Git Branch
-- Warning
-- More Actions
-- Minimize / Maximize / Restore
-- Add
-- Chevron navigation
-- Git pull/push/fetch and cloud sync actions
-- Terminal Bash / CMD / PowerShell / Ubuntu aliases
-- Panel/layout controls
-- Notification controls
-- Additional testing, debugging, extension and Explorer actions
-- Dedicated icons for Back / Forward / Up / Down navigation
-- Dedicated Trash, Eye/Preview, Edit, Check, Pin, Cloud, Download and Upload glyphs
-- Reworked Activity Bar icons so Explorer, Search, Source Control, Run, Extensions, Testing, Account and Settings are easier to identify
+- redesigned Explorer with a futuristic folder/window silhouette and orbit accent
+- redesigned Search with a clean magnifier + spark detail
+- redesigned Source Control and Git Branch with clearer node connections
+- redesigned Run with a stronger play symbol
+- redesigned Extensions with a diamond-grid motif
+- redesigned Testing with a futuristic flask
+- redesigned Account with an orbital profile accent
+- redesigned Settings with a compact hex/gear silhouette
+- redesigned Terminal with a chamfered terminal frame
+- redesigned Sync / Refresh with cleaner circular motion
+- dedicated futuristic glyphs for Warning, Bell, Split, Add, Trash, Preview, Edit, Check, Pin, Cloud, Download and Upload
+- dedicated Back / Forward / Up / Down navigation glyphs
+- broader mappings across high-value VS Code UI actions while keeping unfamiliar controls on familiar defaults
 
 ## Install locally
 
 ```powershell
 cd "D:\OneDrive\Web Development\Galaxy-VS-Code-Product-Icon"
+
+git pull
 npm.cmd install
 npx.cmd vsce package
-code --install-extension .\masum-galaxy-product-icons-1.0.0.vsix --force
+
+code --install-extension .\masum-galaxy-product-icons-1.3.0.vsix --force
 ```
 
-Then open:
+Then activate:
 
 ```text
 Ctrl + Shift + P
@@ -57,7 +44,7 @@ Ctrl + Shift + P
 → Masum Galaxy // Product Icons
 ```
 
-If the UI does not refresh immediately:
+Then run:
 
 ```text
 Developer: Reload Window
@@ -65,27 +52,28 @@ Developer: Reload Window
 
 ## Development
 
-The product icon definition is located at:
+Theme definition:
 
 ```text
 producticons/masum-galaxy-product-icon-theme.json
 ```
 
-The custom WOFF icon font is located at:
+Custom icon font:
 
 ```text
 producticons/masum-galaxy-product-icons.woff
 ```
 
-Open this repository in VS Code and press **F5** to test the theme in an Extension Development Host.
+The font uses private-use glyphs from `U+E001` through `U+E024`.
 
 ## Design direction
 
-- futuristic Galaxy geometry
-- clean silhouettes at small UI sizes
-- minimal visual noise
-- consistent proportions
-- designed to pair with **Masum Galaxy // Future Code** and **Masum Galaxy // File Icons**
+- bold and recognizable before decorative
+- futuristic chamfered geometry
+- subtle orbital / spark accents
+- compact shapes for 16–24 px UI sizes
+- consistent with **Masum Galaxy // Future Code**
+- consistent with **Masum Galaxy // File Icons**
 
 ## Repository
 
