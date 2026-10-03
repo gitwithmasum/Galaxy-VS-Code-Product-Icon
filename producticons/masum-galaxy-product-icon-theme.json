@@ -343,15 +343,15 @@
       "fontId": "masum-galaxy-icons"
     },
     "layout-panel": {
-      "fontCharacter": "\\E00E",
+      "fontCharacter": "\\E027",
       "fontId": "masum-galaxy-icons"
     },
     "layout-sidebar-left": {
-      "fontCharacter": "\\E00E",
+      "fontCharacter": "\\E027",
       "fontId": "masum-galaxy-icons"
     },
     "layout-sidebar-right": {
-      "fontCharacter": "\\E00E",
+      "fontCharacter": "\\E027",
       "fontId": "masum-galaxy-icons"
     },
     "terminal": {
@@ -451,11 +451,11 @@
       "fontId": "masum-galaxy-icons"
     },
     "testing-error-icon": {
-      "fontCharacter": "\\E013",
+      "fontCharacter": "\\E026",
       "fontId": "masum-galaxy-icons"
     },
     "error": {
-      "fontCharacter": "\\E013",
+      "fontCharacter": "\\E026",
       "fontId": "masum-galaxy-icons"
     },
     "issues": {
@@ -764,6 +764,70 @@
     },
     "publish-changes": {
       "fontCharacter": "\\E024",
+      "fontId": "masum-galaxy-icons"
+    },
+    "info": {
+      "fontCharacter": "\\E025",
+      "fontId": "masum-galaxy-icons"
+    },
+    "info-view-icon": {
+      "fontCharacter": "\\E025",
+      "fontId": "masum-galaxy-icons"
+    },
+    "testing-skipped-icon": {
+      "fontCharacter": "\\E025",
+      "fontId": "masum-galaxy-icons"
+    },
+    "debug-breakpoint-unsupported": {
+      "fontCharacter": "\\E026",
+      "fontId": "masum-galaxy-icons"
+    },
+    "layout": {
+      "fontCharacter": "\\E027",
+      "fontId": "masum-galaxy-icons"
+    },
+    "layout-activitybar-left": {
+      "fontCharacter": "\\E027",
+      "fontId": "masum-galaxy-icons"
+    },
+    "layout-activitybar-right": {
+      "fontCharacter": "\\E027",
+      "fontId": "masum-galaxy-icons"
+    },
+    "layout-panel-left": {
+      "fontCharacter": "\\E027",
+      "fontId": "masum-galaxy-icons"
+    },
+    "layout-panel-right": {
+      "fontCharacter": "\\E027",
+      "fontId": "masum-galaxy-icons"
+    },
+    "layout-centered": {
+      "fontCharacter": "\\E027",
+      "fontId": "masum-galaxy-icons"
+    },
+    "database": {
+      "fontCharacter": "\\E028",
+      "fontId": "masum-galaxy-icons"
+    },
+    "server": {
+      "fontCharacter": "\\E028",
+      "fontId": "masum-galaxy-icons"
+    },
+    "library": {
+      "fontCharacter": "\\E028",
+      "fontId": "masum-galaxy-icons"
+    },
+    "bug": {
+      "fontCharacter": "\\E029",
+      "fontId": "masum-galaxy-icons"
+    },
+    "debug": {
+      "fontCharacter": "\\E029",
+      "fontId": "masum-galaxy-icons"
+    },
+    "debug-disconnect": {
+      "fontCharacter": "\\E029",
       "fontId": "masum-galaxy-icons"
     }
   }
