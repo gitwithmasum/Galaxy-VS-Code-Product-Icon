@@ -1,45 +1,27 @@
 # Changelog
 
+## 2.0.0
+
+- Rebuilt the product icon font to match the approved **Premium Galaxy / Before vs After** design direction.
+- Added **41 distinct custom glyphs** covering the main VS Code UI and important secondary actions.
+- Main Activity Bar redesign: orbital Explorer folder, spark Search, constellation Source Control, rocket Run, cube Extensions, flask Testing, orbital Account and reactor-style Settings.
+- Added dedicated Premium Galaxy icons for Terminal, New File, New Folder, Refresh, Sync, Close, Split, Git Branch, Pull, Push, Warning, Info, Error, Notifications and Layout.
+- Added dedicated Back, Forward, Up, Down, Trash, Preview, Edit, Check, Pin, Cloud, Download, Upload, Database and Bug glyphs.
+- Expanded mappings to more than **200 high-value VS Code product icon IDs**.
+- Preserved default VS Code fallbacks for controls where a custom glyph would reduce recognition.
+
 ## 1.3.0
 
 - Redesigned the custom WOFF icon font from the ground up for a more polished, futuristic look.
-- Added **36 distinct Galaxy glyphs** with stronger silhouettes and clearer small-size recognition.
+- Added 36 distinct Galaxy glyphs with stronger silhouettes and clearer small-size recognition.
 - Introduced chamfered geometry, orbit/spark accents and more consistent visual proportions.
-- Reworked the main Activity Bar icons: Explorer, Search, Source Control, Run/Debug, Extensions, Testing, Accounts and Settings.
-- Reworked common UI actions including Terminal, Refresh, Sync, Split, Warning, Bell, Add, Close and window controls.
-- Added dedicated glyphs for Back, Forward, Up, Down, Trash, Preview, Edit, Check, Pin, Cloud, Download and Upload.
-- Mapped the redesigned glyphs across high-value VS Code UI actions while preserving default icons where familiarity is more useful than customization.
+- Reworked the main Activity Bar icons and common UI actions.
 
 ## 1.2.1
 
-- Fixed the **square / missing glyph** issue seen in VS Code.
-- Restored the previously stable Galaxy WOFF icon font.
-- Corrected product icon `fontCharacter` values to the VS Code-supported escape form such as `\\E001`.
-- Reduced the theme to a curated set of high-value icon overrides so uncommon controls retain familiar VS Code defaults.
-- Kept custom Galaxy icons for the main Activity Bar, terminal, refresh, sync, warnings, notifications, common file actions and window controls.
-
-## 1.2.0
-
-- Rebuilt the custom WOFF font with **36 clearer, more recognizable glyphs** instead of reusing overly abstract shapes.
-- Redesigned the main Activity Bar icons for Explorer, Search, Source Control, Run and Debug, Extensions, Testing, Accounts and Settings.
-- Added dedicated glyphs for navigation, Trash, Preview/Eye, Edit, Check, Pin, Cloud, Download and Upload actions.
-- Expanded semantic mappings to more than **200 VS Code product icon IDs**.
-- Reduced ambiguous icon reuse so common controls are easier to identify at a glance.
-- Kept the single-color Product Icon Theme model required by VS Code while preserving the Masum Galaxy visual style.
-
-## 1.1.0
-
-- Expanded product icon coverage from the initial core set to roughly **180 VS Code icon IDs**.
-- Added broader aliases for Explorer, Search, Source Control, Run/Debug, Extensions, Testing, Accounts and Settings.
-- Added Terminal variants for Bash, CMD, PowerShell, Ubuntu and REPL-style views.
-- Added Git fetch/pull/push, cloud sync, panel/layout, notification and navigation mappings.
-- Added more testing, debugging, extension-management and Explorer action mappings.
-- Kept the same compact Galaxy glyph language so the UI stays consistent rather than visually noisy.
+- Fixed square / missing glyph rendering.
+- Restored stable WOFF rendering and corrected product icon character escapes.
 
 ## 1.0.0
 
-- Initial release of **Masum Galaxy // Product Icons**.
-- Added a custom WOFF product icon font.
-- Added custom Galaxy glyphs for the main Activity Bar icons.
-- Added common action icons for files, folders, refresh, sync, collapse, close, split editor, terminal, notifications, Git, warnings, window controls and navigation.
-- Added Marketplace-ready extension metadata and local packaging scripts.
+- Initial **Masum Galaxy // Product Icons** release.
