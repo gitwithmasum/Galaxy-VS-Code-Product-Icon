@@ -1,8 +1,12 @@
+<p align="center">
+  <img src="images/marketplace-hero.jpg" alt="Masum Galaxy Product Icons — futuristic VS Code product icon theme" width="100%">
+</p>
+
 # Masum Galaxy // Product Icons
 
 A futuristic **VS Code Product Icon Theme** by **Masum Billah**.
 
-**Version 2.1.1 · Premium Galaxy + optional Aurora Hover · Free · MIT**
+**Version 2.1.2 · Premium Galaxy + optional Aurora Hover · Free · MIT**
 
 v2.1 keeps the Premium Galaxy v2 icon system and adds an **optional Aurora hover effect directly inside this Product Icon extension**.
 
@@ -25,6 +29,11 @@ Important UI icons include Terminal, Refresh, Sync, Split, Git Branch/Pull/Push,
 
 The custom font contains **41 distinct glyphs** from `U+E001` through `U+E029`, mapped across more than **200 high-value VS Code product icon IDs**.
 
+## Branding
+
+- Marketplace icon: `images/icon.png`
+- Hero banner: `images/marketplace-hero.jpg`
+
 ## Install locally
 
 ```powershell
@@ -34,7 +43,7 @@ git pull
 npm.cmd install
 npx.cmd vsce package
 
-code --install-extension .\masum-galaxy-product-icons-2.1.1.vsix --force
+code --install-extension .\masum-galaxy-product-icons-2.1.2.vsix --force
 ```
 
 Activate the icon theme:
@@ -90,6 +99,8 @@ The optional hover effect uses **Custom CSS and JS Loader**, which modifies VS C
 ## Files
 
 ```text
+images/icon.png
+images/marketplace-hero.jpg
 producticons/masum-galaxy-product-icon-theme.json
 producticons/masum-galaxy-product-icons.woff
 ui/product-icon-hover.css
