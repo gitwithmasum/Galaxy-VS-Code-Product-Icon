@@ -2,11 +2,11 @@
 
 A futuristic **VS Code Product Icon Theme** by **Masum Billah**.
 
-**Version 2.0.0 · Premium Galaxy redesign · Free · MIT**
+**Version 2.1.0 · Premium Galaxy + optional Aurora Hover · Free · MIT**
 
-v2.0 rebuilds the icon font around the approved **Before vs After** direction: stronger silhouettes, orbit/spark details, sci-fi geometry, and clearer visual separation between the main VS Code controls.
+v2.1 keeps the Premium Galaxy v2 icon system and adds an **optional Aurora hover effect directly inside this Product Icon extension**.
 
-> VS Code Product Icon Themes are monochrome font glyphs. The custom shape comes from this extension; the actual cyan/violet/etc. color is supplied by the active VS Code color theme.
+> VS Code's official Product Icon Theme API only defines icon glyphs. Hover animation requires the optional **Custom CSS and JS Loader** extension, so the hover feature is opt-in.
 
 ## Premium Galaxy v2
 
@@ -21,22 +21,9 @@ Main Activity Bar:
 - Accounts — profile + orbit
 - Settings — hex/reactor gear
 
-Important UI icons:
+Important UI icons include Terminal, Refresh, Sync, Split, Git Branch/Pull/Push, Warning/Info/Error, Notifications, layout controls, navigation, Trash, Preview, Edit, Check, Pin, Cloud, Download, Upload, Database and Debug-Bug.
 
-- Terminal
-- New File / New Folder
-- Refresh / Sync
-- Close / Split Editor / More Actions
-- Git Branch / Pull / Push
-- Warning / Info / Error
-- Notifications
-- Layout controls
-- Back / Forward / Up / Down
-- Trash / Preview / Edit / Check / Pin
-- Cloud / Download / Upload
-- Database / Debug-Bug
-
-The custom font now contains **41 distinct glyphs** from `U+E001` through `U+E029`, mapped across more than **200 high-value VS Code product icon IDs**.
+The custom font contains **41 distinct glyphs** from `U+E001` through `U+E029`, mapped across more than **200 high-value VS Code product icon IDs**.
 
 ## Install locally
 
@@ -47,10 +34,10 @@ git pull
 npm.cmd install
 npx.cmd vsce package
 
-code --install-extension .\masum-galaxy-product-icons-2.0.0.vsix --force
+code --install-extension .\masum-galaxy-product-icons-2.1.0.vsix --force
 ```
 
-Activate:
+Activate the icon theme:
 
 ```text
 Ctrl + Shift + P
@@ -58,17 +45,55 @@ Ctrl + Shift + P
 → Masum Galaxy // Product Icons
 ```
 
-Then:
+## Enable Aurora hover
+
+Open:
 
 ```text
-Developer: Reload Window
+Ctrl + Shift + P
 ```
+
+Run:
+
+```text
+Masum Galaxy Product Icons: Enable Aurora Hover
+```
+
+If **Custom CSS and JS Loader** is not installed, the command can install it for you.
+
+Then choose:
+
+```text
+Apply & Reload Window
+```
+
+Hovering Product Icons such as Explorer, Search, Source Control, Run, Extensions, Testing, Account, Settings, Terminal and toolbar actions will then show a cyan → blue → violet Aurora glow.
+
+To disable:
+
+```text
+Masum Galaxy Product Icons: Disable Aurora Hover
+```
+
+To re-apply after a VS Code update:
+
+```text
+Masum Galaxy Product Icons: Reload Aurora Hover
+```
+
+## Important note
+
+The Product Icon glyphs themselves use the official VS Code Product Icon Theme API.
+
+The optional hover effect uses **Custom CSS and JS Loader**, which modifies VS Code workbench files. VS Code can therefore show a modified/corrupt-installation warning while custom CSS is active, and Windows may require Administrator permission to apply it.
 
 ## Files
 
 ```text
 producticons/masum-galaxy-product-icon-theme.json
 producticons/masum-galaxy-product-icons.woff
+ui/product-icon-hover.css
+extension.js
 ```
 
 ## Designed to pair with
