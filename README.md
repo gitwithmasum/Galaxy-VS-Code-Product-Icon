@@ -1,28 +1,42 @@
 # Masum Galaxy // Product Icons
 
-A futuristic, galaxy-inspired **VS Code Product Icon Theme** by **Masum Billah**.
+A futuristic **VS Code Product Icon Theme** by **Masum Billah**.
 
-**Version 1.3.0 · Free · MIT**
+**Version 2.0.0 · Premium Galaxy redesign · Free · MIT**
 
-Version **1.3.0** is a visual redesign focused on making the icons feel more deliberate and premium, not just different. The main UI icons now use bolder silhouettes, chamfered geometry, compact orbital/spark details and clearer semantic shapes at small VS Code sizes.
+v2.0 rebuilds the icon font around the approved **Before vs After** direction: stronger silhouettes, orbit/spark details, sci-fi geometry, and clearer visual separation between the main VS Code controls.
 
-> VS Code Product Icon Themes are monochrome glyph themes. The icon shape comes from this extension, while the actual icon color comes from the active VS Code color theme.
+> VS Code Product Icon Themes are monochrome font glyphs. The custom shape comes from this extension; the actual cyan/violet/etc. color is supplied by the active VS Code color theme.
 
-## What changed in v1.3
+## Premium Galaxy v2
 
-- redesigned Explorer with a futuristic folder/window silhouette and orbit accent
-- redesigned Search with a clean magnifier + spark detail
-- redesigned Source Control and Git Branch with clearer node connections
-- redesigned Run with a stronger play symbol
-- redesigned Extensions with a diamond-grid motif
-- redesigned Testing with a futuristic flask
-- redesigned Account with an orbital profile accent
-- redesigned Settings with a compact hex/gear silhouette
-- redesigned Terminal with a chamfered terminal frame
-- redesigned Sync / Refresh with cleaner circular motion
-- dedicated futuristic glyphs for Warning, Bell, Split, Add, Trash, Preview, Edit, Check, Pin, Cloud, Download and Upload
-- dedicated Back / Forward / Up / Down navigation glyphs
-- broader mappings across high-value VS Code UI actions while keeping unfamiliar controls on familiar defaults
+Main Activity Bar:
+
+- Explorer — futuristic folder + orbital ring
+- Search — magnifier + spark accent
+- Source Control — constellation-style branch nodes
+- Run & Debug — rocket
+- Extensions — wireframe cube
+- Testing — lab flask
+- Accounts — profile + orbit
+- Settings — hex/reactor gear
+
+Important UI icons:
+
+- Terminal
+- New File / New Folder
+- Refresh / Sync
+- Close / Split Editor / More Actions
+- Git Branch / Pull / Push
+- Warning / Info / Error
+- Notifications
+- Layout controls
+- Back / Forward / Up / Down
+- Trash / Preview / Edit / Check / Pin
+- Cloud / Download / Upload
+- Database / Debug-Bug
+
+The custom font now contains **41 distinct glyphs** from `U+E001` through `U+E029`, mapped across more than **200 high-value VS Code product icon IDs**.
 
 ## Install locally
 
@@ -33,10 +47,10 @@ git pull
 npm.cmd install
 npx.cmd vsce package
 
-code --install-extension .\masum-galaxy-product-icons-1.3.0.vsix --force
+code --install-extension .\masum-galaxy-product-icons-2.0.0.vsix --force
 ```
 
-Then activate:
+Activate:
 
 ```text
 Ctrl + Shift + P
@@ -44,36 +58,23 @@ Ctrl + Shift + P
 → Masum Galaxy // Product Icons
 ```
 
-Then run:
+Then:
 
 ```text
 Developer: Reload Window
 ```
 
-## Development
-
-Theme definition:
+## Files
 
 ```text
 producticons/masum-galaxy-product-icon-theme.json
-```
-
-Custom icon font:
-
-```text
 producticons/masum-galaxy-product-icons.woff
 ```
 
-The font uses private-use glyphs from `U+E001` through `U+E024`.
+## Designed to pair with
 
-## Design direction
-
-- bold and recognizable before decorative
-- futuristic chamfered geometry
-- subtle orbital / spark accents
-- compact shapes for 16–24 px UI sizes
-- consistent with **Masum Galaxy // Future Code**
-- consistent with **Masum Galaxy // File Icons**
+- **Masum Galaxy // Future Code**
+- **Masum Galaxy // File Icons**
 
 ## Repository
 
