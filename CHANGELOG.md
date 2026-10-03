@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.3.0
+
+- Redesigned the custom WOFF icon font from the ground up for a more polished, futuristic look.
+- Added **36 distinct Galaxy glyphs** with stronger silhouettes and clearer small-size recognition.
+- Introduced chamfered geometry, orbit/spark accents and more consistent visual proportions.
+- Reworked the main Activity Bar icons: Explorer, Search, Source Control, Run/Debug, Extensions, Testing, Accounts and Settings.
+- Reworked common UI actions including Terminal, Refresh, Sync, Split, Warning, Bell, Add, Close and window controls.
+- Added dedicated glyphs for Back, Forward, Up, Down, Trash, Preview, Edit, Check, Pin, Cloud, Download and Upload.
+- Mapped the redesigned glyphs across high-value VS Code UI actions while preserving default icons where familiarity is more useful than customization.
+
 ## 1.2.1
 
 - Fixed the **square / missing glyph** issue seen in VS Code.
