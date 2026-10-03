@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.2.0
+
+- Rebuilt the custom WOFF font with **36 clearer, more recognizable glyphs** instead of reusing overly abstract shapes.
+- Redesigned the main Activity Bar icons for Explorer, Search, Source Control, Run and Debug, Extensions, Testing, Accounts and Settings.
+- Added dedicated glyphs for navigation, Trash, Preview/Eye, Edit, Check, Pin, Cloud, Download and Upload actions.
+- Expanded semantic mappings to more than **200 VS Code product icon IDs**.
+- Reduced ambiguous icon reuse so common controls are easier to identify at a glance.
+- Kept the single-color Product Icon Theme model required by VS Code while preserving the Masum Galaxy visual style.
+
 ## 1.1.0
 
 - Expanded product icon coverage from the initial core set to roughly **180 VS Code icon IDs**.
