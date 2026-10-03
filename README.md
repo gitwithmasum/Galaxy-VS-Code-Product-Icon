@@ -2,13 +2,13 @@
 
 A futuristic, galaxy-inspired **VS Code Product Icon Theme** by **Masum Billah**.
 
-**Version 1.2.0 · Free · MIT**
+**Version 1.2.1 · Free · MIT**
 
-This extension customizes VS Code interface icons such as Explorer, Search, Source Control, Run and Debug, Extensions, Testing, Accounts, Settings, terminal actions, window controls, refresh/sync actions, warnings and common navigation controls. Version 1.2 redesigns the glyph font for much clearer recognition at small VS Code UI sizes and expands the set to 36 distinct custom glyphs mapped across more than 200 product icon IDs.
+This extension customizes VS Code interface icons such as Explorer, Search, Source Control, Run and Debug, Extensions, Testing, Accounts, Settings, terminal actions, window controls, refresh/sync actions, warnings and common navigation controls. Version **1.2.1** fixes the square/missing-glyph rendering issue, restores the stable Galaxy icon font, uses the correct VS Code product-icon glyph escape format, and keeps a curated set of high-value UI overrides so unfamiliar controls fall back to VS Code defaults.
 
 > Product Icon Themes are single-color glyph themes. VS Code gets each icon's color from the active color theme, so this pack is designed to pair especially well with dark cyan/violet Galaxy color themes.
 
-## Included in v1.2
+## Included in v1.2.1
 
 - Explorer / Files
 - Search
