@@ -1,8 +1,8 @@
 {
   "name": "masum-galaxy-product-icons",
   "displayName": "Masum Galaxy // Product Icons",
-  "description": "A futuristic galaxy-inspired VS Code Product Icon Theme with broad UI coverage and clear, recognizable custom glyphs.",
-  "version": "1.2.0",
+  "description": "A futuristic galaxy-inspired VS Code Product Icon Theme with stable rendering and curated, recognizable UI glyphs.",
+  "version": "1.2.1",
   "publisher": "gitwithmasum",
   "author": {
     "name": "Masum Billah",
