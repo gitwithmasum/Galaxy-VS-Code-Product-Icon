@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.1.2
+
+- Added the official **Masum Galaxy Product Icons** Marketplace icon.
+- Added a new futuristic Galaxy hero banner to the repository.
+- Wired `images/icon.png` into `package.json` for Marketplace / VSIX branding.
+- Updated the README to showcase the new hero artwork.
+
 ## 2.1.1
 
 - Explicitly added the Aurora hover commands to the VS Code Command Palette menu so they are always discoverable after installation.
