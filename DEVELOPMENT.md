@@ -6,33 +6,33 @@
 npm.cmd install
 ```
 
-Open the repository in VS Code and press **F5**. In the Extension Development Host use:
+Open the repository in VS Code and press **F5**. In the Extension Development Host:
 
 ```text
 Preferences: Product Icon Theme
 → Masum Galaxy // Product Icons
 ```
 
-## v1.3 glyph map
+## Premium Galaxy v2 glyph system
 
-The custom font uses the Private Use Area from `U+E001` through `U+E024`.
+The custom WOFF font uses the Private Use Area from `U+E001` through `U+E029`.
 
-Version 1.3 contains **36 distinct custom glyphs**. The design system prioritizes:
+Version 2.0 contains **41 distinct glyphs**. The design system prioritizes:
 
-- recognizable silhouettes at small VS Code UI sizes
-- consistent stroke weight and proportions
-- chamfered futuristic geometry
-- subtle orbital/spark accents
-- semantic distinction between common actions
-- default VS Code fallbacks where a custom icon would reduce clarity
+- recognizable silhouettes at 16–24 px
+- strong Activity Bar identity
+- orbital/spark accents where they remain readable
+- sci-fi geometry without sacrificing meaning
+- distinct icons for common actions instead of excessive glyph reuse
+- native VS Code fallback where familiarity is more valuable
 
-The theme definition file is:
+Theme definition:
 
 ```text
 producticons/masum-galaxy-product-icon-theme.json
 ```
 
-The WOFF font is:
+Font:
 
 ```text
 producticons/masum-galaxy-product-icons.woff
