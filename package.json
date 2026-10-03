@@ -1,8 +1,8 @@
 {
   "name": "masum-galaxy-product-icons",
   "displayName": "Masum Galaxy // Product Icons",
-  "description": "Premium Galaxy v2 product icon theme for VS Code with futuristic orbital UI glyphs and clear small-size silhouettes.",
-  "version": "2.0.0",
+  "description": "Premium Galaxy v2 product icon theme for VS Code with futuristic orbital glyphs and optional Aurora hover effects.",
+  "version": "2.1.0",
   "publisher": "gitwithmasum",
   "author": {
     "name": "Masum Billah",
@@ -46,6 +46,20 @@
         "label": "Masum Galaxy // Product Icons",
         "path": "./producticons/masum-galaxy-product-icon-theme.json"
       }
+    ],
+    "commands": [
+      {
+        "command": "masumGalaxyProductIcons.enableAuroraHover",
+        "title": "Masum Galaxy Product Icons: Enable Aurora Hover"
+      },
+      {
+        "command": "masumGalaxyProductIcons.disableAuroraHover",
+        "title": "Masum Galaxy Product Icons: Disable Aurora Hover"
+      },
+      {
+        "command": "masumGalaxyProductIcons.reloadAuroraHover",
+        "title": "Masum Galaxy Product Icons: Reload Aurora Hover"
+      }
     ]
   },
   "scripts": {
@@ -54,5 +68,21 @@
   },
   "devDependencies": {
     "@vscode/vsce": "^4.0.0"
-  }
+  },
+  "main": "./extension.js",
+  "extensionKind": [
+    "ui"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "activationEvents": [
+    "onStartupFinished",
+    "onCommand:masumGalaxyProductIcons.enableAuroraHover",
+    "onCommand:masumGalaxyProductIcons.disableAuroraHover",
+    "onCommand:masumGalaxyProductIcons.reloadAuroraHover"
+  ]
 }
