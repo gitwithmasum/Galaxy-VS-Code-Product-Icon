@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.1
+
+- Fixed the **square / missing glyph** issue seen in VS Code.
+- Restored the previously stable Galaxy WOFF icon font.
+- Corrected product icon `fontCharacter` values to the VS Code-supported escape form such as `\\E001`.
+- Reduced the theme to a curated set of high-value icon overrides so uncommon controls retain familiar VS Code defaults.
+- Kept custom Galaxy icons for the main Activity Bar, terminal, refresh, sync, warnings, notifications, common file actions and window controls.
+
 ## 1.2.0
 
 - Rebuilt the custom WOFF font with **36 clearer, more recognizable glyphs** instead of reusing overly abstract shapes.
