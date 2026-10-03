@@ -1,0 +1,1 @@
+# Galaxy-VS-Code-Product-Icon
