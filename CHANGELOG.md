@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.1
+
+- Explicitly added the Aurora hover commands to the VS Code Command Palette menu so they are always discoverable after installation.
+- No icon design changes; this patch improves command visibility and installation verification.
+
 ## 2.1.0
 
 - Added the **Aurora hover feature directly to Masum Galaxy // Product Icons**.
