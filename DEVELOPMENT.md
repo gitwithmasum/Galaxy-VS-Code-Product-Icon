@@ -15,16 +15,7 @@ Preferences: Product Icon Theme
 
 ## Premium Galaxy v2 glyph system
 
-The custom WOFF font uses the Private Use Area from `U+E001` through `U+E029`.
-
-Version 2.0 contains **41 distinct glyphs**. The design system prioritizes:
-
-- recognizable silhouettes at 16–24 px
-- strong Activity Bar identity
-- orbital/spark accents where they remain readable
-- sci-fi geometry without sacrificing meaning
-- distinct icons for common actions instead of excessive glyph reuse
-- native VS Code fallback where familiarity is more valuable
+The custom WOFF font uses the Private Use Area from `U+E001` through `U+E029` and contains **41 distinct glyphs**.
 
 Theme definition:
 
@@ -37,3 +28,27 @@ Font:
 ```text
 producticons/masum-galaxy-product-icons.woff
 ```
+
+## Aurora hover
+
+Optional hover CSS:
+
+```text
+ui/product-icon-hover.css
+```
+
+Controller:
+
+```text
+extension.js
+```
+
+Commands:
+
+```text
+Masum Galaxy Product Icons: Enable Aurora Hover
+Masum Galaxy Product Icons: Disable Aurora Hover
+Masum Galaxy Product Icons: Reload Aurora Hover
+```
+
+The controller preserves unrelated `vscode_custom_css.imports` entries and only manages this extension's own hover CSS import.
