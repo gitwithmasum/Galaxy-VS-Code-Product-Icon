@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/marketplace-hero.jpg" alt="Masum Galaxy Product Icons — futuristic VS Code product icon theme" width="100%">
+  <img src="images/marketplace-hero.png" alt="Masum Galaxy Product Icons — futuristic VS Code product icon theme" width="100%">
 </p>
 
 # Masum Galaxy // Product Icons
@@ -32,7 +32,7 @@ The custom font contains **41 distinct glyphs** from `U+E001` through `U+E029`, 
 ## Branding
 
 - Marketplace icon: `images/icon.png`
-- Hero banner: `images/marketplace-hero.jpg`
+- Hero banner: `images/marketplace-hero.png`
 
 ## Install locally
 
@@ -100,7 +100,7 @@ The optional hover effect uses **Custom CSS and JS Loader**, which modifies VS C
 
 ```text
 images/icon.png
-images/marketplace-hero.jpg
+images/marketplace-hero.png
 producticons/masum-galaxy-product-icon-theme.json
 producticons/masum-galaxy-product-icons.woff
 ui/product-icon-hover.css
